@@ -9,10 +9,10 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="book_cover_1">#B983FF</color>
-    <color name="book_cover_2">#316B83</color>
-    <color name="book_cover_3">#11324D</color>
-    <color name="book_cover_4">#B97A95</color>
+    <color name="book_cover_1">#353535</color>
+    <color name="book_cover_2">#1E6470</color>
+    <color name="book_cover_3">#1D5333</color>
+    <color name="book_cover_4">#753A3A</color>
 
     <color name="yellow">#FFDCB4</color>
 </resources>

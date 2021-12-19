@@ -33,6 +33,7 @@
                 android:text="Login"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -41,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="24dp"
                 android:orientation="vertical"
@@ -87,7 +88,7 @@
                         android:id="@+id/remember_check"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:hint="Remember me ? " />
+                        android:hint="Remember me " />
                 </LinearLayout>
 
                 <Button
@@ -141,7 +142,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="4dp"
                     android:layout_marginTop="24dp"
-                    android:text="DOn't have an account? Register"
+                    android:text="GET STARTED"
                     android:textColor="@color/black" />
 
                 <ProgressBar
@@ -160,7 +161,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
                 android:background="@color/yellow"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 

@@ -60,6 +60,18 @@ public class CatergoryAdapter extends RecyclerView.Adapter<CatergoryAdapter.Cate
             Glide.with(context)
                     .load(R.drawable.adventure)
                     .into(holder.binding.catImage);
+        else if(title.equals("Action"))
+            Glide.with(context)
+                    .load(R.drawable.action)
+                    .into(holder.binding.catImage);
+        else if(title.equals("Horror"))
+            Glide.with(context)
+                    .load(R.drawable.horror)
+                    .into(holder.binding.catImage);
+        else if(title.equals("Poetry"))
+            Glide.with(context)
+                    .load(R.drawable.poetry)
+                    .into(holder.binding.catImage);
 
 
     }

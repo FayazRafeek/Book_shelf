@@ -14,8 +14,9 @@
         <RelativeLayout
             android:id="@+id/book_cover"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="wrap_content"
             android:background="#BA000000"
+            android:paddingVertical="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -25,14 +26,29 @@
                 android:id="@+id/buk_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginStart="24dp"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"
+                android:text="Title"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/buk_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="4dp"
+
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="By : Fayaz Mohamed"
+                android:layout_below="@id/buk_title"
+                />
 
 
         </RelativeLayout>

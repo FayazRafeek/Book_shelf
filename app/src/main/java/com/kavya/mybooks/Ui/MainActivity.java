@@ -159,8 +159,11 @@ public class MainActivity extends AppCompatActivity implements CatergoryAdapter.
                     startActivity(intent);
                 }
             });
+
+            binding.draftBukContent.setVisibility(View.VISIBLE);
         } else {
-            binding.draftTitle.setText("No books found");
+            binding.draftBukTitle.setText("No books found");
+            binding.draftBukContent.setVisibility(View.GONE);
         }
 
 
@@ -186,8 +189,10 @@ public class MainActivity extends AppCompatActivity implements CatergoryAdapter.
                     startActivity(new Intent(MainActivity.this, BookActivity.class));
                 }
             });
+            binding.recentBukContent.setVisibility(View.VISIBLE);
         } else {
             binding.recentBukTitle.setText("No books found");
+            binding.recentBukContent.setVisibility(View.GONE);
         }
 
 

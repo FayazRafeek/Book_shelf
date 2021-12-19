@@ -41,6 +41,12 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.BookVH> {
 
         holder.binding.bukTitle.setText(item.getTitle());
 
+        if(item.getAuthor() != null && item.getAuthor() != "")
+            holder.binding.bukAuthor.setText("By : " + item.getAuthor());
+        else
+            holder.binding.bukAuthor.setText("By : Unknown");
+
+
         if(position % 5 == 0)
             holder.binding.bookCover.setBackgroundColor(context.getResources().getColor(R.color.book_cover_4));
         else if(position % 4 == 0)
