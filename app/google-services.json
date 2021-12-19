@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050436390367",
+    "project_id": "my-books-d7fb2",
+    "storage_bucket": "my-books-d7fb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050436390367:android:403cdcbcb5022f7b0d086a",
+        "android_client_info": {
+          "package_name": "com.kavya.mybooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050436390367-jsl7qfaldvmd8v4bb5ba5l39prev3ou1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbOL5FwoagxSzul_l18ciQUGJ-b4gHQZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050436390367-jsl7qfaldvmd8v4bb5ba5l39prev3ou1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
