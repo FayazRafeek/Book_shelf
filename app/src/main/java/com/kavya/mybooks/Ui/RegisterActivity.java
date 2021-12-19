@@ -127,7 +127,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
     public void showLoading() { binding.regProgress.setVisibility(View.VISIBLE);}
-    public void hideLoading() { binding.regProgress.setVisibility(View.INVISIBLE);}
+    public void hideLoading() { binding.regProgress.setVisibility(View.GONE);}
 }
 
 

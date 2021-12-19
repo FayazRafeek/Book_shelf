@@ -128,7 +128,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
     public void showLoading() { binding.loginProgress.setVisibility(View.VISIBLE);}
-    public void hideLoading() { binding.loginProgress.setVisibility(View.INVISIBLE);}
+    public void hideLoading() { binding.loginProgress.setVisibility(View.GONE);}
 
     void saveToPref() {
 
