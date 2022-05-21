@@ -2,6 +2,7 @@ package com.kavya.mybooks.Ui;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -57,6 +58,12 @@ public class CategoryActivity extends AppCompatActivity implements BookAdapter.O
         });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        fetchBooks();
+    }
+
     void fetchBooks(){
 
         binding.catSwipeRefresh.setRefreshing(true);
@@ -77,6 +84,10 @@ public class CategoryActivity extends AppCompatActivity implements BookAdapter.O
                                 bukList.add(buk);
                             }
                             updateRecycler(bukList);
+
+                            if(bukList.size() == 0){
+                                binding.emptyUi.setVisibility(View.VISIBLE);
+                            } else binding.emptyUi.setVisibility(View.GONE);
                         } else
                             Toast.makeText(CategoryActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
